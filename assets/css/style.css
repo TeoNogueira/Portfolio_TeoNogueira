@@ -94,11 +94,16 @@ div.teo-nogueira {
 
 }
 
+.logo-code {
+
+	opacity: 0.6;
+}
+
 
 /* img filter */
 .im-filter {
 
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 
@@ -111,12 +116,12 @@ div.teo-nogueira {
 
 /* Estrutura conteúdos
 -----------------------------*/
-.caixa {
+.box {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#servicos {
+#skills-section {
 	background: white;
 }
 
@@ -124,7 +129,7 @@ div.teo-nogueira {
 	color: white;
 }
 
-#servicos h2, h3 {
+#skills-section h2, h3 {
 	color: #7c25f8;
 }
 
@@ -133,7 +138,7 @@ div.teo-nogueira {
 }
 
 #recursos h3 {
-	color: #9bf0e1;
+	color: #78ddc9;
 }
 
 .albuns {
@@ -179,6 +184,21 @@ footer ul li {
 	float: right;
 	margin: 0 5px;
 }
+
+/* ICONS FOOTER */
+
+.icons-footer li a {
+
+	color: white;
+}
+
+.icons-footer li a:hover {
+
+	color: #b4fcff;
+	transition: 0.5s;
+
+}
+
 
 /* -- - -- -*/
 h1 {
@@ -256,11 +276,18 @@ h3 {
 
 
 	.carousel-indicators [data-bs-target] {
-		width: 9px !important;
+		width: 13px !important;
+		height: 13px !important;
 		position: relative;
-		top: 45px;
+		top: 45px !important;
+		margin: 0  10px;
 		
 	}
+
+
+	
+
+
 }
 
 
