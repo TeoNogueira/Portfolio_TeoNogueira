@@ -66,7 +66,7 @@ nav.navbar-transparente {
 }
 
 .btn-roxo {
-	background: #7c25f8;
+	background: #8a52d8;
 }
 
 .btn-roxo:hover {
@@ -94,6 +94,15 @@ div.teo-nogueira {
 
 }
 
+
+/* img filter */
+.im-filter {
+
+	opacity: 0.8;
+}
+
+
+/* end img filter */
 
 .teo-nogueira {
 	color: white;
@@ -201,6 +210,24 @@ h3 {
 
 
 /* MEDIA QUERY */
+
+
+@media (max-width: 425px) {
+
+
+
+
+	.carousel-indicators [data-bs-target] {
+		width: 9px !important;
+		position: relative;
+		top: 45px;
+		
+	}
+}
+
+
+
+
 @media (max-width: 575.98px) {
 	.btn-custom {
 		margin: 10px 15px;
@@ -222,6 +249,18 @@ h3 {
 	h1 {
 		font-size: 4em;
 	}
+
+	header {
+		padding: 0 0 100px 0;
+	}
+
+
+	.carousel-indicators [data-bs-target] {
+		width: 9px !important;
+		position: relative;
+		top: 45px;
+		
+	}
 }
 
 
@@ -239,6 +278,18 @@ h3 {
 	.dist-space {
 
 		margin-right: 550px;
+			
+		}
+	
+
+		header {
+			padding: 0 0 100px 0;
+		}
+
+
+		.carousel-indicators [data-bs-target] {
+			width: 9px !important;
+			
 			
 		}
 		

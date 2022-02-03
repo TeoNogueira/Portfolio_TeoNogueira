@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./assets/libs/bootstrap/css/bootstrap.min.css">
 
 
-   <link rel="stylesheet" href="./assets/libs/fontawesome/all.min.css">
+
+   <link rel="stylesheet" href="./assets/libs/fontawesome/css/all.min.css">
 
  
 
@@ -69,40 +70,59 @@
         <div class="row"><!--row -->
           <div class="col-md-12 wall">
             
-            <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner"><!--Inner -->
-                
-                <div class="carousel-item active">
-                  <h1>Projetos</h1>
-                  <a href="" class="btn btn-lg btn-custom btn-roxo">
-						lorem ipsum dolor 	
-                  </a>
+          <!-- CARROUSSEL -->
+          
+<div class="container"> 
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      
+      <div class="carousel-inner rounded">
+         
+          <div class="carousel-item">
+              
+              <div class="ratio ratio-16x9 im-filter"> 
+                  
+              <img src="./assets/imagens/aa.png" class="d-block w-100 img-fluid" alt="...">
+              
+          </div>
+          </div>
+         
+          <div class="carousel-item active">
+    
+              <div class="ratio ratio-16x9 im-filter"> 
+              <img src="./assets/imagens/b.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="ratio ratio-16x9 "> 
+              <img src="./assets/imagens/valentine.jpg" class="d-block w-100 img-fluid" alt="...">
+             
+              </div>
+          </div>
 
-                  <a href="" class="btn btn-lg btn-custom btn-branco">
-               lorem ipsum dolor dolor 	
-                  </a>
-                </div>
-
-                <div class="carousel-item">
-                  <h1>Invista</h1>
-                  <a href="" class="btn btn-lg btn-custom btn-branco">
-                    <i class="fas fa-music"></i> Mais sobre
-                  </a>
-                </div>
-
-              </div><!--/Inner -->
-
-              <!-- Controles -->
-              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
-                <i class="fas fa-angle-left fa-3x"></i>
-              </a>
-
-              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
-                <i class="fas fa-angle-right fa-3x"></i>
-              </a>
-
-            </div>
-
+          <div class="carousel-item">
+              <div class="ratio ratio-16x9"> 
+              <img src="./assets/imagens/selena.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+      
+  </div><!-- carrousel end -->
+<!-- FINISH CARROUSSEL -->
           </div>
         </div>
       </div>
@@ -135,16 +155,19 @@
           </div>
           <div class="col-md-6">
             
-            <h2>Habilidades Profissionais</h2>
+            <h2>Habilidades</h2>
 
-            <h3>Sass</h3>
-            <p>lorem ipsum dolor quoti lashi lorem ipsum dolor quoti lashilorem ipsum dolor quoti lashi.</p>
+            <h3>Frontend</h3>
+            <p>Conhecimento de HTML, CSS e JavaScript, conhecimento de Git/Github, conhecimento em Vue.js, experiência em construir interfaces comunicando com APIs, biblioteca JavaScript: jQuery, SASS, typescript, react.js e gulp.js, fluente em metodologias ágeis, trabalho em equipe, boa comunicação.</p>
 
-            <h3>ReactJS</h3>
+            <h3>Backend</h3>
+            <p>Desenvolvi alguns projetos com: prisma, typescript, firebase, insomnia, websockets, nodejs, APIs.</p>
+
+            <!-- <h3>ReactJS</h3>
             <p>lorem ipsum dolor quoti lashilorem ipsum dolor quoti lashilorem ipsum dolor quoti lashilorem ipsum dolor quoti lashi.</p>
 
             <h3>VueJS</h3>
-            <p>lorem ipsum dolor quoti lashi lorem ipsumlorem ipsum dolor quoti lashi lorem ipsumlorem ipsum dolor quoti lashi lorem ipsum.</p>
+            <p>lorem ipsum dolor quoti lashi lorem ipsumlorem ipsum dolor quoti lashi lorem ipsumlorem ipsum dolor quoti lashi lorem ipsum.</p> -->
 
           </div>
         </div>
@@ -235,9 +258,11 @@
     <!-- JS Files -->
 
 
-    
+
     <script src="./assets/libs/jquery/jquery.min.js"></script>
- <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>  -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+ <script src="./assets/libs/bootstrap/js/alternative.js"></script>
+ <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script> 
+  
   </body>
 </html>
