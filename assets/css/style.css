@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
@@ -234,6 +242,24 @@ h3 {
 }
 
 
+/* B-personal */
+
+.b-personal {
+	position: absolute;
+	display: flex;
+	bottom: 170px;
+	right: 300px;
+
+	background: #f58235;
+	color: #fff;
+}
+
+.b-personal:hover {
+	background: #ffa060;
+	color: #ffffff;
+}
+
+
 /* MEDIA QUERY */
 
 
@@ -271,6 +297,8 @@ h3 {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+
 	h1 {
 		font-size: 4em;
 	}
@@ -279,14 +307,33 @@ h3 {
 		padding: 0 0 100px 0;
 	}
 
+	.dist-space {
+
+		margin-right: 190px;
+			
+		}
+
+		
+	.b-personal {
+
+		bottom: 90px !important;
+		right: 162px;
+
+	}
 
 	.carousel-indicators [data-bs-target] {
 		width: 13px !important;
 		height: 13px !important;
 		position: relative;
-		top: 45px !important;
+		top: 48px;
 		margin: 0  10px;
 		
+	}
+
+	.carousel {
+		position: relative;
+		width: 900;
+		width: 655px;
 	}
 
 	footer ul.icons-footer {
@@ -315,6 +362,32 @@ h3 {
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.dist-space {
+
+		margin-right: 390px;
+			
+		}
+
+
+		header {
+			margin: 0 0 90px 0;
+			
+		}
+
+
+	.b-personal {
+
+		bottom: 130px;
+	right: 250px;
+	}
+	.carousel-indicators [data-bs-target] {
+		width: 9px !important;
+		
+		
+	}
+
+
 	h1 {
 		font-size: 5em;
 	}
@@ -353,7 +426,8 @@ h3 {
 	
 
 		header {
-			padding: 0 0 100px 0;
+			margin: 0 0 90px 0;
+			
 		}
 
 
