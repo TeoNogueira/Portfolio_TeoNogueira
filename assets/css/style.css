@@ -7,11 +7,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+/* 
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
-}
+} */
 
 body {
 
@@ -97,10 +97,7 @@ nav.navbar-transparente {
 
 
 /* Pre-conf */
-div.teo-nogueira {
 
-
-}
 
 .logo-code {
 
@@ -154,10 +151,10 @@ div.teo-nogueira {
 }
 
 .giro {
-	-ms-transform: rotate(30deg); 
-    -webkit-transform: rotate(30deg); 
-    transform: rotate(30deg);
-	padding-left: 180px;
+	-ms-transform: rotate(-20deg); 
+    -webkit-transform: rotate(-20deg); 
+    transform: rotate(-20deg);
+	padding-left: 90px;
 }
 
 /* Rodapé
@@ -247,8 +244,8 @@ h3 {
 
 .img-gif {
 
-	width: 1420px;
-	height: 220px;
+	width: 133em;
+	height: 20rem;
 	border-radius: 6px;
 }
 
@@ -276,10 +273,60 @@ h3 {
 /* MEDIA QUERY */
 
 
+
+@media (max-width: 375px) {
+
+	#carouselExampleIndicators {
+
+		position: relative;
+		left: -33.5px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+	width: 9px !important;
+	position: relative !important;
+	top: 45px !important; 
+	left: 33px !important;
+	align-items: center !important;
+	display: flex !important;
+	justify-content: center !important;
+	
+}
+
+.carousel-control-next-icon {
+
+	position: relative !important;
+	left: 65px !important;
+	top: 3px !important;
+
+
+}
+
+img.logo-code {
+
+	width: 33px !important;
+	height: 33px !important;
+}
+
+
+
+
+}
+
+
 @media (max-width: 425px) {
 
+	html, body, #home {
+	
+		height: 100%;
+		overflow-x: hidden;
 
+	}
 
+section#home {
+
+	margin-bottom: -70px !important;
+}
 
 
 	.b-personal {
@@ -300,7 +347,24 @@ h3 {
 		width: 9px !important;
 		position: relative;
 		top: 45px;
+		left: 10px;
 		
+	}
+
+	.carousel-control-next-icon {
+
+		position: relative;
+		left: 10px;
+		top: 3px;
+
+
+	}
+
+	.carousel-inner {
+
+		width: 370px;
+
+
 	}
 
 	footer h4 {
@@ -308,6 +372,14 @@ h3 {
 		margin-top: 10px;
 	}
 
+
+
+	#carouselExampleIndicators {
+
+			position: relative;
+			left: -7px;
+	}
+	
 	
 	
 }
@@ -342,6 +414,7 @@ h3 {
 		left: 100px !important;
 	} */
 
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -354,6 +427,7 @@ h3 {
 
 	footer img.logo-code {
 		margin-bottom: 4px;
+		user-select: none;
 	}
 	
 	.flx  {
@@ -388,6 +462,8 @@ h3 {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+	
 
 
 	h1 {
@@ -453,6 +529,12 @@ h3 {
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+	
+	html, body, #home {
+		height: 100%;
+		overflow-x: hidden;
+	}
 
 	.dist-space {
 
@@ -546,6 +628,30 @@ h3 {
 			
 		
 		}
+
+
+		.carousel-control-next-icon {
+
+			position: relative;
+		
+			bottom: -17px;
+	
+	
+		}
+
+		.carousel-control-prev-icon {
+			position: relative;
+		
+			bottom: -7px;
+
+		}
+
+		html, body, #home {
+			height: 100%;
+			overflow-x: hidden;
+		}
+
+	
 }
 
 
