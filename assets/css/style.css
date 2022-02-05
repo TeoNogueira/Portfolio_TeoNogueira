@@ -321,6 +321,11 @@ background: #f58235;
 			width: 33px !important;
 			height: 33px !important;
 		}
+
+		section#home {
+	
+			margin: 0 0 -80px 0 !important;
+		}
 		
 
 }
@@ -832,7 +837,7 @@ footer h4 {
 			width: 13px !important;
 			height: 13px !important;
 			position: relative !important;
-			top: 42px !important; 
+			top: 32px !important; 
 			margin-bottom: 15px !important;
 			/* top  relativo se passar pode criar rolagem */
 		
@@ -847,7 +852,9 @@ footer h4 {
 
 		footer img.logo-code {
 			position: relative;
-			top: 25px;
+			top: 35px;
+			width: 50px !important;
+			height: 50px !important;
 		}
 		
 
