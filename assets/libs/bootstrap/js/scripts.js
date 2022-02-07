@@ -1,10 +1,34 @@
-window.sr = ScrollReveal({ reset: true});
+// const target = document.querySelectorAll('[data-ast]');
 
-sr.reveal('.eff-1', { duration: 1000});
-
-
+// const ptClass = 'anima';
 
 
+// function scrollingShow() {
+
+// const winShowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+
+// target.forEach(function(e) {
+
+//     if((winShowTop) > e.offsetTop) {
+
+//         e.classList.add(ptClass);
+
+//     }
+//     console.log(e.offsetTop)
+
+// })
+
+// }
+
+// // alternative window
+// window.addEventListener('scroll', function() {
+   
+// scrollingShow();
+
+// })
+
+
+// 
 
 
 // TEXT WRITE
@@ -13,7 +37,6 @@ const frontFreela = document.querySelector('.front-freela');
 const animationWords = (text, counter) => {
 
 
-    
 
     if(counter < text.length) {
 
@@ -28,9 +51,6 @@ const animationWords = (text, counter) => {
 
         }, 280)
             
-        
-
-     
     }
 
 }

@@ -69,14 +69,15 @@ nav.navbar-transparente {
 	font-family: 'Libre Baskerville', sans-serif;
 	color: #fff;
 
+
 }
 .freelancer-section h1  {
 
 	user-select: none;
 }
 
-.freelancer-section h1:hover {
- cursor: url(../cursor/Button.gif), pointer;
+.freelancer-section:hover {
+ cursor: url(../cursor/cursor.png), pointer;
 
 }
 
@@ -264,6 +265,11 @@ h3 {
 	transition: 1s;
 }
 
+.img-opacity:not(:hover) {
+
+	transition: 1s;
+}
+
 
 /* gif */
 
@@ -279,12 +285,28 @@ h3 {
 
 /* EFFECT SHOW */
 
-.eff-1, .eff-2, .eff-3, .eff-4 {
+/* [data-ast] {
 
-visibility: hidden;
+opacity: 0;
+transition: .3s;
+
 }
 
+[data-ast="left"] {
 
+	
+}
+
+[data-ast="right"] {
+
+	
+}
+
+[data-ast].anima {
+
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px);
+} */
 /* ---X--X-X-X-X-X- */
 
 
@@ -350,13 +372,22 @@ background: #f58235;
 			left: 10px !important;
 			
 		}
-		
+
+
+		.b-personal {
+		position: absolute !important;
+		bottom: 20px !important;
+		right: 52px !important;
+		font-size: 0.4rem;
+		font-family: 'Poppins', sans-serif !important;
+		}
 	
 		
 		img.logo-code {
 		
 			width: 33px !important;
 			height: 33px !important;
+			user-select: none !important;
 		}
 
 		section#home {
@@ -385,6 +416,14 @@ background: #f58235;
 
 	}
 
+
+	.b-personal {
+		position: absolute !important;
+		bottom: 30px !important;
+		right: 65px !important;
+		font-size: 0.4rem;
+		font-family: 'Poppins', sans-serif !important;
+		}
 
 	section#home {
 	
@@ -870,6 +909,10 @@ footer h4 {
 	h1 {
 		font-size: 6em;
 	}
+
+
+
+
 	.dist-space {
 
 		margin-right: 550px;
