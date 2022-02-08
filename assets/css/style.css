@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 
 * {
 
@@ -74,6 +76,10 @@ nav.navbar-transparente {
 .freelancer-section h1  {
 
 	user-select: none;
+}
+
+.freelancer-section p {
+	font-family: 'DM Mono', monospace, sans-serif;
 }
 
 .freelancer-section:hover {
@@ -398,6 +404,16 @@ background: #f58235;
 
 	}
 
+
+	.img-top-change {
+		display: flex !important;
+	}
+	section#home {
+		display: none !important;
+	}
+	
+
+
 		.carousel-indicators [data-bs-target] {
 			width: 9px !important;
 			height: 9px !important;
@@ -450,6 +466,12 @@ background: #f58235;
 
 	}
 
+	.img-top-change {
+		display: flex !important;
+	}
+	section#home {
+		display: none !important;
+	}
 
 	.b-personal {
 		position: absolute !important;
@@ -499,6 +521,13 @@ footer h4 {
 
 
 @media (min-width: 404px) {
+
+	.img-top-change {
+		display: flex !important;
+	}
+	section#home {
+		display: none !important;
+	}
 
 	img.logo-code {
 
@@ -755,6 +784,7 @@ section#home {
 	
 	}
 
+
 	.carousel-indicators [data-bs-target] {
 		width: 13px !important;
 		height: 13px !important;
@@ -794,6 +824,13 @@ footer h4 {
 	html, body, #home {
 		height: 100% !important;
 		overflow-x: hidden !important;
+	}
+
+	.img-top-change {
+		display: none !important;
+	}
+	section#home {
+		display: flex !important;
 	}
 
 
@@ -868,6 +905,14 @@ footer h4 {
 		overflow-x: hidden !important;
 	}
 
+	.img-top-change {
+		display: none !important;
+	}
+	section#home {
+		display: flex !important;
+	}
+
+
 	.dist-space {
 
 		margin-right: 390px;
@@ -934,6 +979,13 @@ footer h4 {
 	html, body, #home {
 		height: 100% !important;
 		overflow-x: hidden !important;
+	}
+
+	.img-top-change {
+		display: none !important;
+	}
+	section#home {
+		display: flex !important;
 	}
 
 	

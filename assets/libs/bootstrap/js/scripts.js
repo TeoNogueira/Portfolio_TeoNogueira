@@ -53,9 +53,40 @@ const animationWords = (text, counter) => {
             
     }
 
+    
+  
+
+}
+animationWords('Frontend Freelancer', 0)
+// SETTIMEOUT
+
+
+
+
+const frontFreelaP = document.querySelector('.front-freela-p');
+
+const animaParagraph = (text, counter) => {
+
+
+
+    if(counter < text.length) {
+
+   
+   setTimeout(() => {
+
+            frontFreelaP.textContent += text.charAt(counter);
+            counter++;
+
+            
+            animaParagraph(text, counter);
+
+        }, 180)
+            
+    }
+
 }
 
+setTimeout(function() {
 
-
-    animationWords('Frontend Freelancer', 0)
-
+animaParagraph('Uma maneira prática para alavancar os seus projetos', 0)
+}, 5500);
