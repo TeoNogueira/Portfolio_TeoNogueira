@@ -61,8 +61,6 @@ animationWords('Frontend Freelancer', 0)
 // SETTIMEOUT
 
 
-
-
 const frontFreelaP = document.querySelector('.front-freela-p');
 
 const animaParagraph = (text, counter) => {
@@ -88,5 +86,35 @@ const animaParagraph = (text, counter) => {
 
 setTimeout(function() {
 
-animaParagraph('Uma maneira prática para alavancar os seus projetos', 0)
-}, 5500);
+animaParagraph('“Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.”', 0)
+}, 5700);
+
+
+
+const freelaP = document.querySelector('.front-freela-p-2');
+
+const animaParagraphSecond = (text, counter) => {
+
+
+
+    if(counter < text.length) {
+
+   
+   setTimeout(() => {
+
+    freelaP.textContent += text.charAt(counter);
+            counter++;        
+            animaParagraphSecond(text, counter);
+
+        }, 180)
+            
+    }
+
+}
+
+
+setTimeout(function() {
+
+animaParagraphSecond('– Thales Valentim', 0)
+}, 23700);
+
