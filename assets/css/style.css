@@ -429,8 +429,8 @@ background: #f58235;
 
 		.b-personal {
 		position: absolute !important;
-		bottom: 20px !important;
-		right: 52px !important;
+		bottom: 20px;
+		right: 52px;
 		font-size: 0.4rem;
 		font-family: 'Poppins', sans-serif !important;
 		}
@@ -478,8 +478,8 @@ background: #f58235;
 
 	.b-personal {
 		position: absolute !important;
-		bottom: 30px !important;
-		right: 65px !important;
+		bottom: 30px;
+		right: 65px;
 		font-size: 0.4rem;
 		font-family: 'Poppins', sans-serif !important;
 		}
@@ -562,20 +562,10 @@ section#home {
 	}
 
 
-	
-
-
-
 	footer h4 {
 
 		margin-top: 10px !important;
 	}
-
-
-
-
-
-
 }
 
 
@@ -607,8 +597,8 @@ section#home {
 
 .b-personal {
 		
-	left: 205px !important;
-	top: 138px !important;
+	left: 205px ;
+	top: 138px;
 	width: 75px  !important;
 	height: 25px  !important;
 	font-size:  0.5rem  !important;
@@ -667,8 +657,8 @@ section#home {
 
 	.b-personal {
 		
-		left: 205px !important;
-		top: 138px !important;
+		left: 205px;
+		top: 528px;
 		width:  75px !important;
 		height: 25px !important;
 		font-size:  0.5rem !important;
@@ -708,11 +698,7 @@ section#home {
 		overflow-x: hidden;
 	}
 
-	.b-personal {
 
-		bottom: 130px;
-	right: 250px;
-	}
 
 	.btn-custom {
 		margin: 10px 15px;
@@ -720,21 +706,16 @@ section#home {
 	}
 
 
+	
 	.b-personal {
-
-		bottom: 130px;
-	right: 250px;
-	}
-
-	.b-personal {
-		display: flex;
-		right: 124px;
-		bottom: 50px;
-		width:  100px;
-		height: 40px;
-		font-size:  0.7rem;
-		align-items: center;
-		justify-content: center;
+		display: flex  !important;
+		right: 124px  !important;
+		bottom: 50px  !important; 
+		width:  100px  !important;
+		height: 40px  !important;
+		font-size:  0.7rem  !important;
+		align-items: center  !important;
+		justify-content: center  !important;
 	}
 
 
@@ -759,13 +740,7 @@ section#home {
 		margin-top: 10px;
 	}
 
-	.b-personal {
-		position: absolute !important;
-		bottom: 20px !important;
-		right: 52px !important;
-		font-size: 0.4rem;
-		font-family: 'Poppins', sans-serif !important;
-		}
+
 
 }
 
@@ -812,14 +787,15 @@ section#home {
 	
 
 .b-personal {
-	display: flex;
-	right: 114px;
-	bottom: 50px;
-	width:  100px;
-	height: 40px;
-	font-size:  0.7rem;
-	align-items: center;
-	justify-content: center;
+	position: absolute !important;
+	display: flex !important;
+	right: 114px !important;
+	bottom: 50px !important;
+	width:  100px !important;
+	height: 40px !important ;
+	font-size:  0.7rem !important;
+	align-items: center !important;
+	justify-content: center !important;
 }
 
 footer h4 {
@@ -864,13 +840,6 @@ footer h4 {
 			
 		}
 
-		
-	.b-personal {
-
-		bottom: 90px !important;
-		right: 162px !important;
-
-	}
 
 	.carousel-indicators [data-bs-target] {
 		width: 13px !important;
@@ -882,17 +851,16 @@ footer h4 {
 	}
 
 	.b-personal {
-	display: flex;
-	right: 114px;
-	bottom: 50px;
-	width:  100px;
-	height: 40px;
-	font-size:  0.7rem;
-	align-items: center;
-	justify-content: center;
-}
-
-	
+	position: absolute !important;
+	display: flex !important;
+	right: 114px !important;
+	bottom: 50px !important;
+	width:  100px !important;
+	height: 40px !important;
+	font-size:  0.7rem !important;
+	align-items: center !important;
+	justify-content: center !important;
+}	
 
 	footer ul.icons-footer {
 		position: relative;
@@ -908,13 +876,8 @@ footer h4 {
 
 	footer ul.icons-footer li {
 		float: right;
-		margin: 0 8px;
-		
-		
-	
-	}
-	
-
+		margin: 0 8px;				
+	}	
 
 }
 
@@ -930,17 +893,16 @@ footer h4 {
 	.img-top-change {
 		display: none !important;
 	}
+
 	section#home {
 		display: flex !important;
 	}
-
 
 	.dist-space {
 
 		margin-right: 390px;
 			
 		}
-
 
 		header {
 			margin: 0 0 90px 0;
@@ -954,9 +916,8 @@ footer h4 {
 	}
 
 	.b-personal {
-
-		bottom: 130px;
-	right: 250px;
+	bottom: 130px !important;
+	right: 250px !important;
 	}
 
 	.carousel-indicators [data-bs-target] {
@@ -964,9 +925,7 @@ footer h4 {
 		height: 13px !important;
 		position: relative !important;
 		top: 20px !important; 
-		/* top  relativo se passar pode criar rolagem */
-	
-		
+		/* top  relativo se passar pode criar rolagem */		
 	}
 
 
@@ -976,8 +935,7 @@ footer h4 {
 
 	footer ul.icons-footer {
 		position: relative;
-		top: 27px;
-		
+		top: 27px;		
 	}
 
 	footer img.logo-code {
@@ -988,10 +946,7 @@ footer h4 {
 
 	footer ul.icons-footer li {
 		float: right;
-		margin: 0 15px;
-		
-		
-	
+		margin: 0 15px;			
 	}
 }
 
@@ -1022,15 +977,14 @@ footer h4 {
 
 
 	.b-personal {
-		position: absolute !important;
+		
 		display: flex !important;
-		right: 414px !important;
-		bottom: 50px !important;
-		width:  100px !important;
-		height: 40px !important;
-		font-size:  0.7rem !important;
-		align-items: center !important;
-		justify-content: center !important;
+		left: 650px;
+		top: 410px;
+		width:  200px !important;
+		height: 45px !important;
+		font-size:  1.0rem !important;
+		
 	}
 
 	.dist-space {
