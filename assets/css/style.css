@@ -597,11 +597,11 @@ background: #f58235;
 		position: inherit;
 		justify-content: center;
 		align-items: center;
-		width: 70px;
-		height: 20px;
+		width: 90px ;
+		height: 25px ;
 		top: 130px;
-		left: 196px;
-		font-size: 0.4rem;
+		left: 190px;
+		font-size: 0.6rem;
 		font-family: 'Poppins', sans-serif !important;
 		}
 
@@ -643,7 +643,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 130px;
-		left: 196px;
+		left: 189px;
 	}
 
 }
@@ -653,7 +653,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 130px;
-		left: 197px;
+		left: 189px;
 	}
 
 }
@@ -664,7 +664,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 130px;
-		left: 200px;
+		left: 188px;
 	}
 
 }
@@ -676,7 +676,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 132px;
-		left: 200px;
+		left: 189px;
 	}
 
 }
@@ -687,7 +687,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 134px;
-		left: 202px;
+		left: 194px;
 	}
 
 }
@@ -699,7 +699,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 134px;
-		left: 204px;
+		left: 190px;
 	}
 
 }
@@ -710,7 +710,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 135px;
-		left: 206px;
+		left: 197px;
 	}
 
 }
@@ -721,7 +721,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 138px;
-		left: 210px;
+		left: 196px;
 	}
 
 }
@@ -733,7 +733,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 140px;
-		left: 212px;
+		left: 202px;
 	}
 
 }
@@ -744,7 +744,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 142px;
-		left: 216px;
+		left: 206px;
 	}
 
 }
@@ -828,11 +828,11 @@ body::-webkit-scrollbar {
 	position: inherit;
 	justify-content: center;
 	align-items: center;
-	width: 70px;
-	height: 20px;
+	width: 90px;
+	height: 25px;
 	top: 140px;
-	left: 215px;
-	font-size: 0.4rem;
+	left: 205px;
+	font-size: 0.6rem;
 	font-family: 'Poppins', sans-serif !important;
 	}
 
@@ -853,11 +853,11 @@ body::-webkit-scrollbar {
 		position: inherit;
 		justify-content: center;
 		align-items: center;
-		width: 70px;
-		height: 20px;
+		width: 90px;
+		height: 25px;
 		top: 142px;
-		left: 217px;
-		font-size: 0.4rem;
+		left: 207px;
+		font-size: 0.6rem;
 		font-family: 'Poppins', sans-serif !important;
 		}
 
@@ -870,11 +870,11 @@ body::-webkit-scrollbar {
 		position: inherit;
 		justify-content: center;
 		align-items: center;
-		width: 70px;
-		height: 20px;
-		top: 144px;
-		left: 219px;
-		font-size: 0.4rem;
+		width: 90px;
+		height: 25px;
+		top: 142px;
+		left: 207px;
+		font-size: 0.6rem;
 		font-family: 'Poppins', sans-serif !important;
 		}
 
@@ -929,11 +929,11 @@ section#home {
 
 .b-personal {
 		
-	left: 218px ;
-	top: 143px;
-	width: 75px  !important;
-	height: 23px  !important;
-	font-size:  0.5rem  !important;
+	width: 90px;
+	height: 25px;
+	top: 142px;
+	left: 212px;
+	font-size: 0.6rem;
 	align-items: center !important;
 	justify-content: center !important;
 
@@ -974,11 +974,11 @@ section#home {
 
 	.b-personal {
 		
-		left: 223px ;
-		top: 147px;
-		width: 75px  !important;
-		height: 23px  !important;
-		font-size:  0.5rem  !important;
+		width: 90px;
+		height: 25px;
+		top: 142px;
+		left: 213px;
+		font-size: 0.6rem;
 		align-items: center !important;
 		justify-content: center !important;
 	
@@ -993,11 +993,11 @@ section#home {
 
 	.b-personal {
 		
-		left: 225px ;
-		top: 149px;
-		width: 75px  !important;
-		height: 23px  !important;
-		font-size:  0.5rem  !important;
+		width: 90px !important;
+		height: 25px !important;
+		top: 145px !important;
+		left: 216px !important;
+		font-size: 0.6rem !important;
 		align-items: center !important;
 		justify-content: center !important;
 	
@@ -1005,29 +1005,6 @@ section#home {
 
 
 }
-
-
-
-
-
-@media (min-width: 421px) {
-
-
-	.b-personal {
-		
-		left: 228px ;
-		top: 151px;
-		width: 75px  !important;
-		height: 23px  !important;
-		font-size:  0.5rem  !important;
-		align-items: center !important;
-		justify-content: center !important;
-	
-	}
-
-
-}
-
 
 
 
@@ -1082,11 +1059,12 @@ section#home {
 
 	.b-personal {
 		
-		left: 225px;
-		top: 150px;
-		width:  75px !important;
+		
+		width: 90px !important;
 		height: 25px !important;
-		font-size:  0.5rem !important;
+		top: 145px !important;
+		left: 216px !important;
+		font-size: 0.6rem !important;
 		align-items: center !important;
 		justify-content: center !important;
 
