@@ -1350,7 +1350,7 @@ footer h4 {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1439.98px) {
 
 	html, body, #home {
 		height: 100% !important;
