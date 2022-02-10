@@ -699,7 +699,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 134px;
-		left: 190px;
+		left: 196px;
 	}
 
 }
@@ -721,7 +721,7 @@ footer h4 {
 	.b-personal {
 	
 		top: 138px;
-		left: 196px;
+		left: 199px;
 	}
 
 }
@@ -1350,7 +1350,7 @@ footer h4 {
 }
 
 
-@media (min-width: 1200px) and (max-width: 1439.98px) {
+@media (min-width: 1200px) {
 
 	html, body, #home {
 		height: 100% !important;
@@ -1445,19 +1445,5 @@ footer h4 {
 
 
 	
-@media (min-width: 1440px) {
-
-
-	.b-personal {
-		
-		display: flex !important;
-		left: 750px;
-		top: 480px;
-		width:  200px !important;
-		height: 45px !important;
-		font-size:  1.0rem !important;
-		
-	}
-}
 
 

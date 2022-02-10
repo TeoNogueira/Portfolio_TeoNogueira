@@ -57,6 +57,8 @@ const animationWords = (text, counter) => {
   
 
 }
+
+
 animationWords('Frontend Freelancer', 0)
 // SETTIMEOUT
 
