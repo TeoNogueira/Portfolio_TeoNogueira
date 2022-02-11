@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700;900&display=swap');
+
+
+
+
+
+.photo-style-one {
+
+position: relative;
+display: flex;
+width: 358px;
+height: 710px;
+background: linear-gradient(#040507, #0c0c0c);
+border-radius: 6px;
+flex-direction: column;
+opacity: 0.9;
+
+}
+
+.ps-text {
+position: relative;
+top: 130px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.photo-style-one .ps-text h1 {
+    color: #fff !important;
+    user-select: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.photo-style-one h3 {
+    color: #fff !important;
+    user-select: none;
+    line-height: 2.8;
+    flex-direction: flex-start;
+    font-family: 'DM Sans', sans-serif  !important;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+   
+    
+}
+
+.photo-style-geometric {
+
+    display: flex;
+
+}
+
+div.c-path-01 {
+
+    position: relative;
+    top: 185px; 
+    left: 155px;
+    background: linear-gradient(#040507, #fff);
+    width: 120px;
+    height: 120px;
+    clip-path: ellipse(45% 45% at 50% 50%);
+}
+
+div.c-path-02 {
+   
+    position: relative;
+    top: 289px; 
+    right: -118px;
+    background: linear-gradient(#040507, #fff);
+    width: 120px;
+    height: 120px;
+    clip-path: ellipse(45% 45% at 29.8% 50%);
+    transform: rotate(180deg);
+    
+}
+
+
+
+/* SMALL BALLS */
+
+
+.small-cont {
+
+display: flex;
+flex-direction: column;  
+justify-content: center;
+
+}
+.small-sect {
+
+display: flex;
+top: 88px; 
+left: 280px;
+position: relative;
+
+}
+
+
+
+.small-ball {
+    
+margin: 0 15px 16px 0; 
+background: linear-gradient(#f74800, #ff6d6d);
+border-radius: 50%;
+width: 7px;
+height: 7px;
+
+}
+
+
+/* SMALL SECT -2 */
+
+
+
+.small-sect-2 {
+
+    display: flex;
+    top: 98px; 
+    left: 173px;
+    position: relative;
+    
+    }
+
+    .small-ball-2 {
+    
+        margin: 0 12px 16px 0; 
+        background: linear-gradient(#f74800, #ff6d6d);  
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+        
+        }
