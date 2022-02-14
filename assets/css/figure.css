@@ -4,14 +4,12 @@
 
 
 
-
-
 .photo-style-one {
 
 position: relative;
 display: flex;
 width: 358px;
-height: 710px;
+height: 580px;
 background: linear-gradient(#040507, #0c0c0c);
 border-radius: 6px;
 flex-direction: column;
@@ -21,7 +19,7 @@ opacity: 0.9;
 
 .ps-text {
 position: relative;
-top: 130px;
+top: 50px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -40,7 +38,7 @@ align-items: center;
 .photo-style-one h3 {
     color: #fff !important;
     user-select: none;
-    line-height: 2.8;
+    line-height: 0.7;
     flex-direction: flex-start;
     font-family: 'DM Sans', sans-serif  !important;
     font-size: 2rem;
@@ -59,7 +57,7 @@ align-items: center;
 div.c-path-01 {
 
     position: relative;
-    top: 185px; 
+    top: 145px; 
     left: 155px;
     background: linear-gradient(#040507, #fff);
     width: 120px;
@@ -70,7 +68,7 @@ div.c-path-01 {
 div.c-path-02 {
    
     position: relative;
-    top: 289px; 
+    top: 249px; 
     right: -118px;
     background: linear-gradient(#040507, #fff);
     width: 120px;
@@ -92,10 +90,11 @@ flex-direction: column;
 justify-content: center;
 
 }
+
 .small-sect {
 
 display: flex;
-top: 88px; 
+top: 48px; 
 left: 280px;
 position: relative;
 
@@ -121,7 +120,7 @@ height: 7px;
 .small-sect-2 {
 
     display: flex;
-    top: 98px; 
+    top: 58px; 
     left: 173px;
     position: relative;
     

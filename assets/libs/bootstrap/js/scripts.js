@@ -2,7 +2,6 @@
 
 // const ptClass = 'anima';
 
-
 // function scrollingShow() {
 
 // const winShowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
@@ -27,9 +26,7 @@
 
 // })
 
-
 // 
-
 
 // TEXT WRITE
 const frontFreela = document.querySelector('.front-freela');

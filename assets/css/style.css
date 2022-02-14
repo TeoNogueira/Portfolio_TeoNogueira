@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 
+
+:root {
+ 
+    --red-text: #eb4539;
+    --red-ball: rgb(209, 21, 21);
+    --green-ball: #7ed955;
+    --yellow-ball: #ffde58;
+    --aqua-01: rgb(143, 229, 208);
+    --w: #fff;
+
+}
+
 * {
 
 	margin: 0;
@@ -117,9 +129,6 @@ nav.navbar-transparente {
 
 /* IMG CHANGE */
 
-
-
-
 .img-top-change img {
 	padding: 100px 0 30px 0;
 	width: 100%;
@@ -202,7 +211,7 @@ nav.navbar-transparente {
 }
 
 #colors-t {
-	background: linear-gradient(#4458be, #171444);
+	background: linear-gradient(#3c4eaa, #120f3d);
 	opacity: 0.8;
 }
 
@@ -211,6 +220,7 @@ nav.navbar-transparente {
 }
 #skills-section h2, h3 {
 	color: #7c25f8;
+	
 }
 
 #colors-t h2 {
@@ -218,7 +228,7 @@ nav.navbar-transparente {
 }
 
 #colors-t h3 {
-	color: #7be9d1;
+	color: #8de7d4;
 }
 
 .cards-right {
