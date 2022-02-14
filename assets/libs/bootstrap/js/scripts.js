@@ -1,34 +1,47 @@
-// const target = document.querySelectorAll('[data-ast]');
 
-// const ptClass = 'anima';
 
-// function scrollingShow() {
 
-// const winShowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+// VIVIFY 
 
-// target.forEach(function(e) {
+const vivifyAdd = () => {
 
-//     if((winShowTop) > e.offsetTop) {
+ $('.graph-style').addClass('vivify ball')
 
-//         e.classList.add(ptClass);
 
-//     }
-//     console.log(e.offsetTop)
+}
 
-// })
+const vivifyAddTwo = () => {
 
-// }
-
-// // alternative window
-// window.addEventListener('scroll', function() {
+    $('.photo-style-one').addClass('vivify pulsate')
    
-// scrollingShow();
+   
+   }
+   
 
-// })
+   const vivifySpin = () => {
+
+    $('.terminal-cont').addClass('vivify spin')
+   
+   
+   }
+
+
+   const vivifyShake = () => {
+
+    $('.text-tv').addClass('vivify shake')
+   
+   
+   }
+   
+
+
 
 // 
+// 
+// 
+// 
 
-// TEXT WRITE
+
 const frontFreela = document.querySelector('.front-freela');
 
 const animationWords = (text, counter) => {
