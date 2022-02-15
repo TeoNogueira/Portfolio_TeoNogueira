@@ -1462,6 +1462,20 @@ footer h4 {
 		align-items: center;
 	}
 
+
+
+	.carousel-indicators [data-bs-target] {
+
+		width: 13px !important;
+		height: 13px !important;
+		position: relative !important;
+		top: 8px !important; 
+		margin-bottom: 15px !important;
+
+		/* top  relativo se passar pode criar rolagem */
+	
+		
+	}
 	
 }
 
@@ -1470,18 +1484,16 @@ footer h4 {
 
 	html, body, #home {
 		height: 100% !important;
-		overflow-x: hidden !important;
+		
 	}
 
 
 	section#home {
-		display: flex !important;
-	}
+		
+	display: flex !important;
+	overflow-y: hidden !important;
+	margin: 0 0 50px 0!important;
 
-	
-	section#home {
-
-		margin: 0 0 50px 0!important;
 	}
 
 	h1 {
@@ -1525,14 +1537,15 @@ footer h4 {
 		}
 	
 		.carousel-indicators [data-bs-target] {
+
+
+			overflow: hidden !important;
 			width: 13px !important;
 			height: 13px !important;
 			position: relative !important;
 			top: 32px !important; 
 			margin-bottom: 15px !important;
-
-			/* top  relativo se passar pode criar rolagem */
-		
+			/* top  relativo se passar pode criar rolagem */		
 			
 		}
 		
@@ -1563,6 +1576,8 @@ footer h4 {
 
 	@media (min-width: 1400px) {
 
+
+
 		.b-personal {
 		
 			display: flex !important;
@@ -1586,7 +1601,6 @@ footer h4 {
 			align-items: center;
 		}
 	
-
 
 	}
 	
