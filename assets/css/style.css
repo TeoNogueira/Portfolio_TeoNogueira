@@ -249,6 +249,16 @@ left: -2px;
 	padding: 10px 0;
 }
 
+/* GOALS */
+
+.goals {
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
 
 .giro {
 	-ms-transform: rotate(20deg); 
@@ -279,7 +289,7 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-	color: #9bf0e1;
+	color: #98ecdd;
 	text-decoration: none;
 }
 
@@ -506,6 +516,16 @@ background: #f58235;
 		}
 		
 
+
+		
+	.goals {
+
+		display: flex;
+		flex-direction: column;
+			
+		}
+		
+
 		footer h4 {
 
 			margin-top: 8px !important;
@@ -649,6 +669,13 @@ img.logo-code {
 }
 
 
+.goals {
+
+	display: flex;
+	flex-direction: column;
+		
+	}
+
 footer h4 {
 
 	margin-top: 10px !important;
@@ -791,7 +818,19 @@ footer h4 {
 
 
 /* 400 OR MORE  ==========x================x===============*/
+@media (min-width: 404px) and (max-width: 767.96px) {
 
+	.goals {
+
+		display: flex;
+		flex-direction: column;
+			
+		}
+		
+	
+
+
+}
 
 
 @media (min-width: 404px) and (max-width: 413.98px) {
@@ -1103,6 +1142,12 @@ section#home {
 	}
 	
 
+	.goals {
+
+	display: flex;
+	flex-direction: column;
+		
+	}
 	
 
 
@@ -1296,6 +1341,26 @@ footer h4 {
 	}
 
 
+	.goals {
+
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		gap: 26px;
+	}
+
+	h1.text-tv {
+
+		font-size: 2.5em !important;
+	}
+
+	.photo-style-one {
+
+		display: none !important;
+	}
+
+
+
 	footer ul.icons-footer {
 		position: relative;
 		top: 50px;
@@ -1314,6 +1379,7 @@ footer h4 {
 	}	
 
 }
+
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1382,6 +1448,21 @@ footer h4 {
 		float: right;
 		margin: 0 15px;			
 	}
+}
+
+@media (min-width: 992px) and (max-width: 1440.98px) {
+
+	.goals {
+
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		gap: 20px;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	
 }
 
 
@@ -1479,6 +1560,35 @@ footer h4 {
 	} 
 
 
+
+	@media (min-width: 1400px) {
+
+		.b-personal {
+		
+			display: flex !important;
+			left: 751px !important;
+			top: 450px !important;
+			width:  200px !important;
+			height: 45px !important;
+			font-size:  1.0rem !important;
+			
+		}
+	
+
+
+		.goals {
+
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			gap: 10px;
+			justify-content: space-around;
+			align-items: center;
+		}
+	
+
+
+	}
 	
 
 
