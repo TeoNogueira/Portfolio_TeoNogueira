@@ -1,3 +1,26 @@
+// D, afte, night
+
+const colorsT = document.querySelector('#colors-t')
+
+const date = new Date()
+
+const hour = date.getHours()
+
+
+if(hour == 24 || hour <12) {
+
+colorsT.style.background = 'linear-gradient(#3c4eaa, #120f3d)'
+
+} else if(hour == 12 || hour < 18) {
+
+    colorsT.style.background = 'linear-gradient(#332a9c, #4b3341)'
+} else if(hour == 18 < 24) {
+
+
+    colorsT.style.background = 'linear-gradient(#332a9c, #4b3341)'
+}
+
+
 
 
 
@@ -10,13 +33,16 @@ const vivifyAdd = () => {
 
 }
 
+
 const vivifyAddTwo = () => {
 
-    $('.photo-style-one').addClass('vivify pulsate')
    
+    $('.photo-style-one').addClass('vivify pulsate') 
    
+
    }
-   
+
+ 
 
    const vivifySpin = () => {
 
@@ -33,8 +59,6 @@ const vivifyAddTwo = () => {
    
    }
    
-
-
 
 // 
 // 
