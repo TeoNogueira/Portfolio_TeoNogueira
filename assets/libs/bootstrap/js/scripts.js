@@ -1,13 +1,13 @@
-// D, afte, night
+// D, afte, night // graph-text-icons
 
 const colorsT = document.querySelector('#colors-t')
 
 const date = new Date()
 
 const hour = date.getHours()
-
-
-if(hour == 24 || hour <12) {
+//3c4eaa
+//120f3d
+if(hour == 24 || hour < 12) {
 
 colorsT.style.background = 'linear-gradient(#3c4eaa, #120f3d)'
 
@@ -16,10 +16,9 @@ colorsT.style.background = 'linear-gradient(#3c4eaa, #120f3d)'
     colorsT.style.background = 'linear-gradient(#332a9c, #4b3341)'
 } else if(hour == 18 < 24) {
 
-
+    
     colorsT.style.background = 'linear-gradient(#332a9c, #4b3341)'
 }
-
 
 
 
@@ -62,6 +61,9 @@ const vivifyAddTwo = () => {
 
 // 
 // 
+
+
+
 // 
 // 
 

@@ -324,4 +324,15 @@
         
                 transform: rotate(-360deg);
             }
+        };
+
+        /* graph text icon */
+
+        .graph-text-icon {
+
+            position: relative;
+            display: flex;
+            top: -120px;
+           color: #fff;
+            opacity: none !important;
         }
